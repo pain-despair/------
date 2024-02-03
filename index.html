@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/catflower.jpg"></img>
+            <h1 class="hh" id="name">Привет Викулечка!</h1>
+            <p class="pp" id="question">Примешь мою валент инку?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">Нет</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Да</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>Хорошая попытка, но еще раз нажмешь сюда-дам пизды</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>С 14 февраля, малышка</p>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/index.js"></script>
+</body>
+</html>
