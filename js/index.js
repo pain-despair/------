@@ -21,7 +21,7 @@ function showMessage(response) {
     
         // Update text content and hide name message
         document.getElementById("question").textContent =
-            "Хорошая попытка, но еще раз нажмешь сюда-дам пизды";
+            "Еще раз нажмешь-хуй не скину";
         document.getElementById("name").style.display = "none";
     
         // Optional: You can also add a timeout to reset the position after a few seconds
@@ -34,7 +34,7 @@ function showMessage(response) {
     
         // Update text content, show message, and change image source to "dance.gif"
         const yesMessage = document.getElementById("question");
-        yesMessage.textContent = "С 14 февраля, солнышко😘😘";
+        yesMessage.textContent = "Умничка, любимка, улыбайся чаще, лавки ю🤍";
         yesMessage.style.display = "block";
         yesMessage.style.fontStyle = "normal";
         document.getElementsByClassName("image")[0].src = "images/dance.gif";
